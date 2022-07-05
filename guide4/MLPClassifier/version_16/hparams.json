@@ -1,0 +1,21 @@
+{
+    "model_class": "MLPClassifier",
+    "model_hparams": {
+        "hidden_dims": [
+            512,
+            512
+        ],
+        "num_classes": 10,
+        "dropout_prob": 0.39573629692783413
+    },
+    "optimizer_hparams": {
+        "weight_decay": 0.0012107132860246818,
+        "lr": 0.002097404408052793
+    },
+    "logger_params": {
+        "base_log_dir": "../saved_models/guide4/"
+    },
+    "enable_progress_bar": false,
+    "debug": false,
+    "seed": 42
+}
